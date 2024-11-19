@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		036C774A2CEC88EB004947D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036C77282CEC88EA004947D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036C772F2CEC88EA004947D3;
+			remoteInfo = "pay Estimator";
+		};
+		036C77542CEC88EB004947D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036C77282CEC88EA004947D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036C772F2CEC88EA004947D3;
+			remoteInfo = "pay Estimator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036C77302CEC88EA004947D3 /* pay Estimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pay Estimator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		036C77492CEC88EB004947D3 /* pay EstimatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pay EstimatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		036C77532CEC88EB004947D3 /* pay EstimatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pay EstimatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		036C775B2CEC88EB004947D3 /* Exceptions for "pay Estimator" folder in "pay Estimator" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 036C772F2CEC88EA004947D3 /* pay Estimator */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		036C77322CEC88EA004947D3 /* pay Estimator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				036C775B2CEC88EB004947D3 /* Exceptions for "pay Estimator" folder in "pay Estimator" target */,
+			);
+			path = "pay Estimator";
+			sourceTree = "<group>";
+		};
+		036C774C2CEC88EB004947D3 /* pay EstimatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "pay EstimatorTests";
+			sourceTree = "<group>";
+		};
+		036C77562CEC88EB004947D3 /* pay EstimatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "pay EstimatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036C772D2CEC88EA004947D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036C77462CEC88EB004947D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036C77502CEC88EB004947D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036C77272CEC88EA004947D3 = {
+			isa = PBXGroup;
+			children = (
+				036C77322CEC88EA004947D3 /* pay Estimator */,
+				036C774C2CEC88EB004947D3 /* pay EstimatorTests */,
+				036C77562CEC88EB004947D3 /* pay EstimatorUITests */,
+				036C77312CEC88EA004947D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036C77312CEC88EA004947D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036C77302CEC88EA004947D3 /* pay Estimator.app */,
+				036C77492CEC88EB004947D3 /* pay EstimatorTests.xctest */,
+				036C77532CEC88EB004947D3 /* pay EstimatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036C772F2CEC88EA004947D3 /* pay Estimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036C775C2CEC88EB004947D3 /* Build configuration list for PBXNativeTarget "pay Estimator" */;
+			buildPhases = (
+				036C772C2CEC88EA004947D3 /* Sources */,
+				036C772D2CEC88EA004947D3 /* Frameworks */,
+				036C772E2CEC88EA004947D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				036C77322CEC88EA004947D3 /* pay Estimator */,
+			);
+			name = "pay Estimator";
+			packageProductDependencies = (
+			);
+			productName = "pay Estimator";
+			productReference = 036C77302CEC88EA004947D3 /* pay Estimator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		036C77482CEC88EB004947D3 /* pay EstimatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036C77612CEC88EB004947D3 /* Build configuration list for PBXNativeTarget "pay EstimatorTests" */;
+			buildPhases = (
+				036C77452CEC88EB004947D3 /* Sources */,
+				036C77462CEC88EB004947D3 /* Frameworks */,
+				036C77472CEC88EB004947D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036C774B2CEC88EB004947D3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				036C774C2CEC88EB004947D3 /* pay EstimatorTests */,
+			);
+			name = "pay EstimatorTests";
+			packageProductDependencies = (
+			);
+			productName = "pay EstimatorTests";
+			productReference = 036C77492CEC88EB004947D3 /* pay EstimatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		036C77522CEC88EB004947D3 /* pay EstimatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036C77642CEC88EB004947D3 /* Build configuration list for PBXNativeTarget "pay EstimatorUITests" */;
+			buildPhases = (
+				036C774F2CEC88EB004947D3 /* Sources */,
+				036C77502CEC88EB004947D3 /* Frameworks */,
+				036C77512CEC88EB004947D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036C77552CEC88EB004947D3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				036C77562CEC88EB004947D3 /* pay EstimatorUITests */,
+			);
+			name = "pay EstimatorUITests";
+			packageProductDependencies = (
+			);
+			productName = "pay EstimatorUITests";
+			productReference = 036C77532CEC88EB004947D3 /* pay EstimatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036C77282CEC88EA004947D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					036C772F2CEC88EA004947D3 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					036C77482CEC88EB004947D3 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 036C772F2CEC88EA004947D3;
+					};
+					036C77522CEC88EB004947D3 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 036C772F2CEC88EA004947D3;
+					};
+				};
+			};
+			buildConfigurationList = 036C772B2CEC88EA004947D3 /* Build configuration list for PBXProject "pay Estimator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 036C77272CEC88EA004947D3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 036C77312CEC88EA004947D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036C772F2CEC88EA004947D3 /* pay Estimator */,
+				036C77482CEC88EB004947D3 /* pay EstimatorTests */,
+				036C77522CEC88EB004947D3 /* pay EstimatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036C772E2CEC88EA004947D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036C77472CEC88EB004947D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036C77512CEC88EB004947D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036C772C2CEC88EA004947D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036C77452CEC88EB004947D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036C774F2CEC88EB004947D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		036C774B2CEC88EB004947D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036C772F2CEC88EA004947D3 /* pay Estimator */;
+			targetProxy = 036C774A2CEC88EB004947D3 /* PBXContainerItemProxy */;
+		};
+		036C77552CEC88EB004947D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036C772F2CEC88EA004947D3 /* pay Estimator */;
+			targetProxy = 036C77542CEC88EB004947D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		036C775D2CEC88EB004947D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CNCKFKK87;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pay Estimator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DalloW.pay-Estimator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		036C775E2CEC88EB004947D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CNCKFKK87;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pay Estimator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DalloW.pay-Estimator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		036C775F2CEC88EB004947D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		036C77602CEC88EB004947D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036C77622CEC88EB004947D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CNCKFKK87;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DalloW.pay-EstimatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pay Estimator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pay Estimator";
+			};
+			name = Debug;
+		};
+		036C77632CEC88EB004947D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CNCKFKK87;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DalloW.pay-EstimatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pay Estimator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pay Estimator";
+			};
+			name = Release;
+		};
+		036C77652CEC88EB004947D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CNCKFKK87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DalloW.pay-EstimatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pay Estimator";
+			};
+			name = Debug;
+		};
+		036C77662CEC88EB004947D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CNCKFKK87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DalloW.pay-EstimatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pay Estimator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036C772B2CEC88EA004947D3 /* Build configuration list for PBXProject "pay Estimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036C775F2CEC88EB004947D3 /* Debug */,
+				036C77602CEC88EB004947D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036C775C2CEC88EB004947D3 /* Build configuration list for PBXNativeTarget "pay Estimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036C775D2CEC88EB004947D3 /* Debug */,
+				036C775E2CEC88EB004947D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036C77612CEC88EB004947D3 /* Build configuration list for PBXNativeTarget "pay EstimatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036C77622CEC88EB004947D3 /* Debug */,
+				036C77632CEC88EB004947D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036C77642CEC88EB004947D3 /* Build configuration list for PBXNativeTarget "pay EstimatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036C77652CEC88EB004947D3 /* Debug */,
+				036C77662CEC88EB004947D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 036C77282CEC88EA004947D3 /* Project object */;
+}
